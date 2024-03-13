@@ -1,0 +1,172 @@
+/*RESET CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*FIN RESET CSS*/
+
+body {
+	font-family: "Jua", sans-serif;
+	color: #fff;
+	font-size: 24px;
+	background: #1C1C24;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#text {
+	margin-left: 50px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	max-width: 1600px;
+	margin-top: 150px;
+}
+
+#social {
+	display: flex;
+	margin-block: 30px;
+}
+
+#logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-bottom: 30px;
+
+}
+
+#token {
+	max-width: 80px;
+}
+
+#logo-text {
+	max-width: 300px;
+}
+
+#harambase {
+	width: 700px;
+}
+
+a {
+	text-decoration: none;
+	color: #DDB96A;
+	font-size: 30px;
+	padding-block: 13px;
+	padding-inline: 13px;
+	border-radius: 50px;
+	margin-inline: 10px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-block: 20px;
+	justify-content: center;
+	position: relative;
+	bottom: -120px;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 20px;
+}
+
+main {
+	max-width: 320px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#text {
+    margin: 0;
+}
+
+#harambase {
+    max-width: 332px;
+}
+
+#social {
+	display: flex;
+}
+
+#ca {
+	margin-bottom: 50px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-block: 20px;
+	justify-content: center;
+	position: relative;
+	bottom: -80px;
+
+}
+
+}
